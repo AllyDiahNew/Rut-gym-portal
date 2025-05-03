@@ -1,0 +1,51 @@
+# Environment files
+/.env
+/.env.*.local
+.env.backup
+.env.production
+
+# Dependency directories
+/node_modules
+/vendor
+
+# Build assets
+/public/build
+/public/hot
+/public/storage
+
+# Storage (exclude sensitive files)
+/storage/*.key
+/storage/pail
+/storage/logs/*.log  # Optional: Keep if you want to exclude logs
+
+# PHPUnit/cache files
+/.phpunit.cache
+.phpunit.result.cache
+
+# Editor/IDE files
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.phpactor.json
+
+# Local development tools
+Homestead.json
+Homestead.yaml
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Authentication files
+/auth.json
+
+# macOS files (add these if needed)
+.DS_Store
+
+# Windows files (add these if needed)
+Thumbs.db
+
+# Composer (optional)
+composer.phar
